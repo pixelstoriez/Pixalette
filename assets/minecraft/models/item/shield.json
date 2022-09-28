@@ -1,0 +1,51 @@
+{
+    "parent": "item/generated",
+	"textures": {
+        "layer0": "item/shield"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 2.5, -2, 3 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 2.5, -2, 3 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 9, 1, -4 ],
+            "translation": [ 0, -4, -3 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 9, 1, -4 ],
+            "translation": [ 0, -4, -3 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "gui": {
+            "rotation": [ 0, 0, -0 ],
+            "translation": [ 0, 0, -10 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "item/shield_blocking"
+        }
+    ]
+}

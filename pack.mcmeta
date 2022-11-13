@@ -1,6 +1,6 @@
 {
-    "pack": {
-        "description": "A vibrant, pixel art resource pack for Minecraft.",
-        "pack_format": 9
-    }
+ "pack": {
+   "pack_format": 9,
+   "description": "§7Version 1.0                        §8By Pixelstories"
+ }
 }

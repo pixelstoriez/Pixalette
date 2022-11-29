@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/torch"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [5, 90, 0],
+			"translation": [1.13, 4.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [5, -90, 0],
+			"translation": [1.13, 4.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		}
+	}
+}
